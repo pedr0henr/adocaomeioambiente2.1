@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Adoção Responsável - Secretaria de Meio Ambiente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menu -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="LOGO-PREFEITURA0123.png" alt="Prefeitura Balneário Barra do Sul">
+            </div>
+            <h1>Secretaria Municipal de Meio Ambiente<br><span>Programa de Adoção Responsável</span></h1>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#pets">Pets Disponíveis</a></li>
+                <li><a href="#add">Adicionar Pet</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Início -->
+    <section id="inicio" class="inicio">
+        <h2>Bem-vindo ao Programa Municipal de Adoção Responsável</h2>
+        <p>Aqui você encontra cães e gatos que aguardam um lar cheio de carinho.<br>
+        Adotar é um ato de amor e responsabilidade!</p>
+    </section>
+
+    <!-- Pets Disponíveis -->
+    <section id="pets" class="pets">
+        <h2>Pets Disponíveis para Adoção</h2>
+        <div class="pet-list" id="pet-list">
+            <!-- Pets adicionados aparecerão aqui -->
+        </div>
+    </section>
+
+    <!-- Adicionar Pet -->
+    <section id="add" class="add-pet">
+        <h2>Adicionar Novo Pet</h2>
+        <input type="text" id="petName" placeholder="Nome do Pet">
+        <input type="text" id="petImage" placeholder="URL da Imagem">
+        <input type="text" id="phoneNumber" placeholder="Telefone para contato">
+        <button onclick="addPet()">Adicionar Pet</button>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <img src="LOGO-PREFEITURA0123.png" alt="Prefeitura Balneário Barra do Sul" class="footer-logo">
+        <p>Secretaria Municipal de Meio Ambiente - Prefeitura de Balneário Barra do Sul</p>
+        <p>Endereço: Rua Principal, 123 - Centro - Balneário Barra do Sul - SC</p>
+        <p>Telefone: (47) 0000-0000 | E-mail: meioambiente@bbs.sc.gov.br</p>
+        <p>&copy; 2025 Prefeitura Municipal de Balneário Barra do Sul</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
